@@ -33,10 +33,6 @@ local mock_device = test.mock_device.build_test_matter_device(
             cluster_type = "SERVER",
             cluster_revision = 1,
             feature_map = 0,
-            attributes = nil,
-            server_commands = nil,
-            client_commands = nil,
-            event = nil,
           },
           {cluster_id = clusters.LevelControl.ID, cluster_type = "SERVER"},
           {cluster_id = clusters.PowerSource.ID, cluster_type = "SERVER"}
