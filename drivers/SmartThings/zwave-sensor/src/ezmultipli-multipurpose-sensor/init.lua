@@ -22,7 +22,7 @@ local constants = require "st.zwave.constants"
 --- @type st.zwave.CommandClass.Basic
 local Basic = (require "st.zwave.CommandClass.Basic")({version=1})
 --- @type st.zwave.CommandClass.SwitchColor
-local SwitchColor = (require "st.zwave.CommandClass.SwitchColor")({version=3})
+local SwitchColor = (require "st.zwave.CommandClass.SwitchColor")({version=1})
 --- @type st.zwave.CommandClass.SwitchBinary
 local SwitchBinary = (require "st.zwave.CommandClass.SwitchBinary")({version=2})
 

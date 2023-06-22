@@ -20,7 +20,7 @@ local utils = require "st.utils"
 local capabilities = require "st.capabilities"
 local Configuration = (require "st.zwave.CommandClass.Configuration")({ version = 1 })
 local Basic = (require "st.zwave.CommandClass.Basic")({ version = 1 })
-local SwitchColor = (require "st.zwave.CommandClass.SwitchColor")({ version = 3 })
+local SwitchColor = (require "st.zwave.CommandClass.SwitchColor")({ version = 1 })
 
 
 local sensor_endpoints = {
