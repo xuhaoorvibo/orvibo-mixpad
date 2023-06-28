@@ -21,6 +21,13 @@ matterManufacturer:
     productId: 0x5E
     deviceProfileName: plug-binary
 
+#ORVIBO
+- id: "ORVIBO/MixPadD1/Light"
+    deviceLabel: ORVIBO MixPadD1 Dimmer Light WiFi
+    vendorId: 0x1219
+    productId: 0x0005
+    deviceProfileName: light-level
+
 #Bridge devices need manufacturer specific fingerprints until
 #bridge support is released to all hubs. This is because of the way generic
 #fingerprints work for bridges joined prior to hubs being able to support them
